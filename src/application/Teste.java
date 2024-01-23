@@ -12,11 +12,11 @@ public class Teste {
 		
 		
 		System.out.println("###INICIO###");
-		System.out.println("##Insira nome:");
+		System.out.println("##Insira o nome:");
 		p1.setNome(sc.nextLine());
 		System.out.println("##Insira Cidade:");
 		p1.setCidade(sc.nextLine());
-		System.out.println("##Insira Idade:");
+		System.out.println("##Insira a Idade:");
 		p1.setIdade(sc.nextInt());
 		
 		p1.calcIdade();
